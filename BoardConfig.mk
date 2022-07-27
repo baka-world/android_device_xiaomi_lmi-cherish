@@ -20,6 +20,7 @@ TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_lmi
 
 # Kernel
 TARGET_KERNEL_CONFIG := lmi_defconfig
+KERNEL_LLVM_SUPPORT := true
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := lmi,lmipro
